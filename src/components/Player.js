@@ -19,7 +19,7 @@ const Player = ({
     setSongs,
 }) => {
     //Event Handlers
-    const ActiveLibraryHandler = () => {
+    const ActiveLibraryHandler = (nextPrev) => {
         const newSongs = songs.map((song) => {
             if (song.id === currentSong.id) {
                 return {
@@ -57,17 +57,21 @@ const Player = ({
         if (direction === "forward") {
             if (currentIndex !== 19) {
                 await setCurrentSong(songs[currentIndex + 1]);
+                ActiveLibraryHandler(songs[currentIndex + 1]);
             } else {
                 await setCurrentSong(songs[0]);
+                ActiveLibraryHandler(songs[0]);
             }
         }
         if (direction === "back") {
             if (currentIndex !== 0) {
                 await setCurrentSong(songs[currentIndex - 1]);
+                ActiveLibraryHandler(songs[currentIndex - 1]);
                 if (isPlaying) audioRef.current.play();
                 return;
             } else {
                 await setCurrentSong(songs[19]);
+                ActiveLibraryHandler(songs[19]);
             }
         }
         if (isPlaying) audioRef.current.play();
