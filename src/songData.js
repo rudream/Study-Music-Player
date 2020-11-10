@@ -135,6 +135,18 @@ function chillHop() {
             active: false,
         },
         {
+            name: "With Time",
+            cover:
+                "https://chillhop.com/wp-content/uploads/2020/09/88e7eb711f8c71d87fc102e97cf91e36f692348d-1024x1024.jpg",
+            thumbnailCover:
+                "https://chillhop.com/wp-content/uploads/2020/09/88e7eb711f8c71d87fc102e97cf91e36f692348d-150x150.jpg",
+            artist: "Leavv",
+            audio: "https://mp3.chillhop.com/serve.php/?mp3=9925",
+            color: ["#3B7964", "#2ab3bf"],
+            id: uuidv4(),
+            active: false,
+        },
+        {
             name: "Under the City Stars",
             cover:
                 "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
@@ -159,14 +171,14 @@ function chillHop() {
             active: false,
         },
         {
-            name: "With Time",
+            name: "Droplets",
             cover:
-                "https://chillhop.com/wp-content/uploads/2020/09/88e7eb711f8c71d87fc102e97cf91e36f692348d-1024x1024.jpg",
+                "https://chillhop.com/wp-content/uploads/2020/09/2899f7cc22ab12e17d0119819aac3ca9dbab46e6-1024x1024.jpg",
             thumbnailCover:
-                "https://chillhop.com/wp-content/uploads/2020/09/88e7eb711f8c71d87fc102e97cf91e36f692348d-150x150.jpg",
-            artist: "Leavv",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=9925",
-            color: ["#3B7964", "#2ab3bf"],
+                "https://chillhop.com/wp-content/uploads/2020/09/2899f7cc22ab12e17d0119819aac3ca9dbab46e6-150x150.jpg",
+            artist: "Philantrope",
+            audio: "https://mp3.chillhop.com/serve.php/?mp3=10257",
+            color: ["#A84036", "#F26B34"],
             id: uuidv4(),
             active: false,
         },
@@ -179,18 +191,6 @@ function chillHop() {
             artist: "Leavv, Flitz & Suppe",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9913",
             color: ["#3B7964", "#2ab3bf"],
-            id: uuidv4(),
-            active: false,
-        },
-        {
-            name: "Droplets",
-            cover:
-                "https://chillhop.com/wp-content/uploads/2020/09/2899f7cc22ab12e17d0119819aac3ca9dbab46e6-1024x1024.jpg",
-            thumbnailCover:
-                "https://chillhop.com/wp-content/uploads/2020/09/2899f7cc22ab12e17d0119819aac3ca9dbab46e6-150x150.jpg",
-            artist: "Philantrope",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=10257",
-            color: ["#A84036", "#F26B34"],
             id: uuidv4(),
             active: false,
         },

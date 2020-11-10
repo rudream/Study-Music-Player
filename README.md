@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Chill-Hop Player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a music player built using React (Hooks). An emphasis was put on the clean and smooth UI design. There are 20 songs loaded which are all great for programming/studying and that I listen to myself.
+
+# INSTRUCTIONS
 
 ## Available Scripts
 
