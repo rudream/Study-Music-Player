@@ -4,15 +4,24 @@ nav {
     justify-content: space-around;
     align-items: center;
     button {
+        font-size: 20px;
         background: transparent;
         border: none;
         cursor: pointer;
         border: 2px solid rgb(65, 65, 65);
-        padding: 0.5rem;
+        padding: 1rem;
         transition: all 0.3s ease;
         &:hover {
             background: rgb(65, 65, 65);
             color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        button {
+            z-index: 10;
         }
     }
 }

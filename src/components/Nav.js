@@ -7,8 +7,7 @@ const Nav = ({ libraryStatus, setLibraryStatus }) => {
         <nav>
             <h1>Chill-Hop Player</h1>
             <button onClick={() => setLibraryStatus(!libraryStatus)}>
-                Library
-                <FontAwesomeIcon icon={faMusic} />
+                Library <FontAwesomeIcon icon={faMusic} />
             </button>
         </nav>
     );
