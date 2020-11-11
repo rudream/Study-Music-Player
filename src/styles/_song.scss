@@ -17,6 +17,19 @@
     }
 }
 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSong {
+    animation: rotate 60s linear forwards infinite;
+}
+
 @media screen and (max-width: 768px) {
     .song-container {
         img {

@@ -41,7 +41,7 @@
     border-radius: 1rem;
 }
 .animate-track {
-    background: rgb(233, 233, 233);
+    background: rgb(204, 204, 204);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -60,10 +60,9 @@ input[type="range"]::-webkit-slider-thumb {
     height: 16px;
     width: 16px;
 }
-input[type="range"]::-moz-range-thumb {
-    -webkit-appearance: none;
-    background: transparent;
-    border: none;
+
+.volume-slider {
+    transition: all 0.5s ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -71,6 +70,6 @@ input[type="range"]::-moz-range-thumb {
         width: 90%;
     }
     .play-control {
-        width: 60%;
+        width: 80%;
     }
 }
