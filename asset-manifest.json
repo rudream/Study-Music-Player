@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Chillhop-Player/static/css/main.5c22ff6a.chunk.css",
-    "main.js": "/Chillhop-Player/static/js/main.bf730a94.chunk.js",
-    "main.js.map": "/Chillhop-Player/static/js/main.bf730a94.chunk.js.map",
+    "main.css": "/Chillhop-Player/static/css/main.0fdd4102.chunk.css",
+    "main.js": "/Chillhop-Player/static/js/main.504a9599.chunk.js",
+    "main.js.map": "/Chillhop-Player/static/js/main.504a9599.chunk.js.map",
     "runtime-main.js": "/Chillhop-Player/static/js/runtime-main.1b485e06.js",
     "runtime-main.js.map": "/Chillhop-Player/static/js/runtime-main.1b485e06.js.map",
-    "static/js/2.99f62dcb.chunk.js": "/Chillhop-Player/static/js/2.99f62dcb.chunk.js",
-    "static/js/2.99f62dcb.chunk.js.map": "/Chillhop-Player/static/js/2.99f62dcb.chunk.js.map",
+    "static/js/2.ec0e56ee.chunk.js": "/Chillhop-Player/static/js/2.ec0e56ee.chunk.js",
+    "static/js/2.ec0e56ee.chunk.js.map": "/Chillhop-Player/static/js/2.ec0e56ee.chunk.js.map",
     "index.html": "/Chillhop-Player/index.html",
-    "static/css/main.5c22ff6a.chunk.css.map": "/Chillhop-Player/static/css/main.5c22ff6a.chunk.css.map",
-    "static/js/2.99f62dcb.chunk.js.LICENSE.txt": "/Chillhop-Player/static/js/2.99f62dcb.chunk.js.LICENSE.txt"
+    "static/css/main.0fdd4102.chunk.css.map": "/Chillhop-Player/static/css/main.0fdd4102.chunk.css.map",
+    "static/js/2.ec0e56ee.chunk.js.LICENSE.txt": "/Chillhop-Player/static/js/2.ec0e56ee.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1b485e06.js",
-    "static/js/2.99f62dcb.chunk.js",
-    "static/css/main.5c22ff6a.chunk.css",
-    "static/js/main.bf730a94.chunk.js"
+    "static/js/2.ec0e56ee.chunk.js",
+    "static/css/main.0fdd4102.chunk.css",
+    "static/js/main.504a9599.chunk.js"
   ]
 }
