@@ -1,6 +1,16 @@
-# Chill-Hop Player
+# Study Music Player
 
-This is a music player built using React (Hooks). An emphasis was put on the clean and smooth UI design. There are 20 songs loaded which are all great for programming/studying and that I listen to myself.
+A sleek music player built in react containing 20 chill-hop songs great for coding and studying.
+
+##Features:
+
+- Smooth animations & UI
+- Interactive library
+- Play/Pause
+- Previous song/Next song
+- Shuffle and Loop song
+- Adjustable progress bar to skip through the song
+- Autoplays the next song in the library when the song ends (or shuffles to a random one)
 
 # INSTRUCTIONS
 
