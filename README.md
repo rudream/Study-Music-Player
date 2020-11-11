@@ -2,7 +2,7 @@
 
 A sleek music player built in react containing 20 chill-hop songs great for coding and studying.
 
-##Features:
+## Features:
 
 - Smooth animations & UI
 - Interactive library
@@ -12,7 +12,7 @@ A sleek music player built in react containing 20 chill-hop songs great for codi
 - Adjustable progress bar to skip through the song
 - Autoplays the next song in the library when the song ends (or shuffles to a random one)
 
-##A live demo can be found here: https://rudream.github.io/Study-Music-Player/
+## A live demo can be found here: https://rudream.github.io/Study-Music-Player/
 
 # INSTRUCTIONS
 
