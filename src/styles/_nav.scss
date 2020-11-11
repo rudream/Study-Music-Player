@@ -24,7 +24,7 @@ nav {
     a {
         color: rgb(65, 65, 65);
         background: transparent;
-        font-size: 1.7rem;
+        font-size: 1.5vw;
         margin-top: 1rem;
         border: none;
         cursor: pointer;
@@ -41,10 +41,13 @@ nav {
         button {
             z-index: 10;
             font-size: 15px;
-            padding: 0.5rem;
+            padding: 0.3rem;
         }
         h1 {
             font-size: 1rem;
+        }
+        a {
+            opacity: 0;
         }
     }
 }

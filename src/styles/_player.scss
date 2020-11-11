@@ -26,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-
+    height: 10rem;
     width: 40%;
     svg {
         cursor: pointer;
@@ -61,8 +61,66 @@ input[type="range"]::-webkit-slider-thumb {
     width: 16px;
 }
 
-.volume-slider {
-    transition: all 0.5s ease;
+.loop-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+    transform: translateY(0%);
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.loop-button-on {
+    transform: translateY(-20%);
+    #icon {
+        animation: spin 0.5s ease-out forwards 1;
+    }
+}
+
+.loop-button-circle {
+    font-size: 0.5rem;
+    margin-top: 0.3rem;
+    transform: translateY(7rem);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.loop-button-circle-on {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.shuffle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    transform: translateY(0%);
+}
+
+.shuffle-button-on {
+    transform: translateY(-20%);
+}
+
+.shuffle-button-circle {
+    font-size: 0.5rem;
+    transform: translateY(7rem);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.shuffle-button-circle-on {
+    transform: translateY(0%);
+    opacity: 1;
 }
 
 @media screen and (max-width: 768px) {

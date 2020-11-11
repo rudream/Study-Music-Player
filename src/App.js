@@ -13,7 +13,6 @@ import { playAudio } from "./util";
 function App() {
     //Ref
     const audioRef = useRef(null);
-
     const [songs, setSongs] = useState(chillHop());
     const [currentSong, setCurrentSong] = useState(songs[0]);
     const [isPlaying, setIsPlaying] = useState(false);
@@ -22,6 +21,8 @@ function App() {
         duration: 0,
         animationPercentage: 0,
     });
+    const [isLooping, setIsLooping] = useState(false);
+    const [isShuffling, setIsShuffling] = useState(false);
     const [libraryStatus, setLibraryStatus] = useState(false);
 
     const activeLibraryHandler = (nextPrev) => {
@@ -59,9 +60,17 @@ function App() {
         let currentIndex = songs.findIndex(
             (song) => song.id === currentSong.id
         );
-        await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+        if (!isLooping) {
+            if (!isShuffling) {
+                await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+                activeLibraryHandler(songs[currentIndex + 1]);
+            } else if (isShuffling) {
+                let randomSongIndex = Math.floor(Math.random() * songs.length);
+                await setCurrentSong(songs[randomSongIndex]);
+                activeLibraryHandler(songs[randomSongIndex]);
+            }
+        }
         playAudio(isPlaying, audioRef);
-        activeLibraryHandler(songs[currentIndex + 1]);
         return;
     };
     return (
@@ -82,6 +91,10 @@ function App() {
                 setSongs={setSongs}
                 setCurrentSong={setCurrentSong}
                 activeLibraryHandler={activeLibraryHandler}
+                isLooping={isLooping}
+                setIsLooping={setIsLooping}
+                isShuffling={isShuffling}
+                setIsShuffling={setIsShuffling}
             />
             <Library
                 songs={songs}
