@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Chillhop-Player/static/css/main.0fdd4102.chunk.css",
-    "main.js": "/Chillhop-Player/static/js/main.504a9599.chunk.js",
-    "main.js.map": "/Chillhop-Player/static/js/main.504a9599.chunk.js.map",
-    "runtime-main.js": "/Chillhop-Player/static/js/runtime-main.1b485e06.js",
-    "runtime-main.js.map": "/Chillhop-Player/static/js/runtime-main.1b485e06.js.map",
-    "static/js/2.ec0e56ee.chunk.js": "/Chillhop-Player/static/js/2.ec0e56ee.chunk.js",
-    "static/js/2.ec0e56ee.chunk.js.map": "/Chillhop-Player/static/js/2.ec0e56ee.chunk.js.map",
-    "index.html": "/Chillhop-Player/index.html",
-    "static/css/main.0fdd4102.chunk.css.map": "/Chillhop-Player/static/css/main.0fdd4102.chunk.css.map",
-    "static/js/2.ec0e56ee.chunk.js.LICENSE.txt": "/Chillhop-Player/static/js/2.ec0e56ee.chunk.js.LICENSE.txt"
+    "main.css": "/Study-Music-Player/static/css/main.0fdd4102.chunk.css",
+    "main.js": "/Study-Music-Player/static/js/main.504a9599.chunk.js",
+    "main.js.map": "/Study-Music-Player/static/js/main.504a9599.chunk.js.map",
+    "runtime-main.js": "/Study-Music-Player/static/js/runtime-main.ae44a213.js",
+    "runtime-main.js.map": "/Study-Music-Player/static/js/runtime-main.ae44a213.js.map",
+    "static/js/2.ec0e56ee.chunk.js": "/Study-Music-Player/static/js/2.ec0e56ee.chunk.js",
+    "static/js/2.ec0e56ee.chunk.js.map": "/Study-Music-Player/static/js/2.ec0e56ee.chunk.js.map",
+    "index.html": "/Study-Music-Player/index.html",
+    "static/css/main.0fdd4102.chunk.css.map": "/Study-Music-Player/static/css/main.0fdd4102.chunk.css.map",
+    "static/js/2.ec0e56ee.chunk.js.LICENSE.txt": "/Study-Music-Player/static/js/2.ec0e56ee.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b485e06.js",
+    "static/js/runtime-main.ae44a213.js",
     "static/js/2.ec0e56ee.chunk.js",
     "static/css/main.0fdd4102.chunk.css",
     "static/js/main.504a9599.chunk.js"
