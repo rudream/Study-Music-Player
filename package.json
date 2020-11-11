@@ -2,7 +2,7 @@
   "name": "ripple-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rudream.github.io/Chillhop-Player/",
+  "homepage": "https://rudream.github.io/Study-Music-Player/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
